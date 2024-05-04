@@ -1,0 +1,19 @@
+module DocumentGenerator
+  module Facture
+    class FactureMetadata2 < ::Data
+      def initialize: (facture_id: String) -> untyped
+
+      def self.members: () -> [:Title, :Author, :Subject, :CreationDate]
+
+      def members: () -> [:Title, :Author, :Subject, :CreationDate]
+
+      attr_reader Title: String
+
+      attr_reader Author: String
+
+      attr_reader Subject: String
+
+      attr_reader CreationDate: Time
+    end
+  end
+end

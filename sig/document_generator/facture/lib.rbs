@@ -1,0 +1,13 @@
+module DocumentGenerator
+  module Facture
+    def self.metadata: (facture_id: String) -> {Title: String, Author: String, Subject: String, CreationDate: Time}
+
+    CONDITIONS: ::String
+
+    FOOTER: ::String
+
+    INFO_REZOLEO: ::String
+
+    INPUT: ::Hash[untyped, untyped]
+  end
+end

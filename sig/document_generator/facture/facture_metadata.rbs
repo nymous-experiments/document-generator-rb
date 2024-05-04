@@ -1,0 +1,14 @@
+module DocumentGenerator
+  module Facture
+    class FactureMetadata
+      attr_reader title: String
+      attr_reader author: String
+      attr_reader subject: String
+      attr_reader creation_date: Time
+
+      def initialize: (facture_id: String) -> void
+
+      def to_h: -> { Title: String, Author: String, Subject: String, CreationDate: Time }
+    end
+  end
+end
